@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/main.js"></script>
+    <title>Transportation Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">  
+        <form id="transportation-survey">
+          <div class="form-group">
+            <p>In the past year I have used the following modes of transportation to travel to and from work and or school:</p>
+            <input type="checkbox" name="work-transportation" value="bike">Riding a bike.<br>
+            <input type="checkbox" name="work-transportation" value="bus">Riding the bus.<br>
+            <input type="checkbox" name="work-transportation" value="car">Driving a car.<br>
+            <input type="checkbox" name="work-transportation" value="train">Taking the train.<br>
+            <input type="checkbox" name="work-transportation" value="walk">Walking.<br>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <span id="work-responses">
+        <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
